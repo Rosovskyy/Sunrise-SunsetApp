@@ -12,6 +12,7 @@
 		C964561B2203293700D77402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96456192203293700D77402 /* Main.storyboard */; };
 		C964561D2203293900D77402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C964561C2203293900D77402 /* Assets.xcassets */; };
 		C96456202203293900D77402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C964561E2203293900D77402 /* LaunchScreen.storyboard */; };
+		C964562922032B4E00D77402 /* SunSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C964562822032B4E00D77402 /* SunSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C964561C2203293900D77402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C964561F2203293900D77402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C96456212203293900D77402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C964562822032B4E00D77402 /* SunSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		C96456142203293700D77402 /* SunsetApp */ = {
 			isa = PBXGroup;
 			children = (
+				C964562722032B3900D77402 /* Model */,
 				C96456152203293700D77402 /* AppDelegate.swift */,
 				C96456172203293700D77402 /* ViewController.swift */,
 				C96456192203293700D77402 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				C96456212203293900D77402 /* Info.plist */,
 			);
 			path = SunsetApp;
+			sourceTree = "<group>";
+		};
+		C964562722032B3900D77402 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C964562822032B4E00D77402 /* SunSet.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				C96456182203293700D77402 /* ViewController.swift in Sources */,
 				C96456162203293700D77402 /* AppDelegate.swift in Sources */,
+				C964562922032B4E00D77402 /* SunSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
